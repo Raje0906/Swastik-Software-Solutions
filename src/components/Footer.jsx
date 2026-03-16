@@ -15,12 +15,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
-                            <div style={{
-                                width: 40, height: 40, borderRadius: 10,
-                                background: 'linear-gradient(135deg, var(--accent), #f0c96b)',
-                                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                                fontWeight: 800, fontSize: 20, color: 'var(--primary)',
-                            }}>S</div>
+                            <img src="/logo.png" alt="Swastik Logo" style={{ width: 44, height: 44, objectFit: 'contain' }} />
                             <div>
                                 <div style={{ fontWeight: 700, color: '#fff', fontFamily: 'Poppins,sans-serif' }}>Swastik</div>
                                 <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.5)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>Software Solutions</div>
@@ -31,7 +26,7 @@ export default function Footer() {
                         </p>
                         <div style={{ display: 'flex', gap: 10 }}>
                             {[
-                                { icon: <Linkedin size={18} />, href: 'https://www.linkedin.com/company/swastik-software-solutions', label: 'LinkedIn' },
+                                { icon: <Linkedin size={18} />, href: 'https://www.linkedin.com/company/swatik-software-solutions', label: 'LinkedIn' },
                             ].map(s => (
                                 <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}
                                     style={{

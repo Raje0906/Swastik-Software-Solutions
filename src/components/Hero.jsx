@@ -253,6 +253,9 @@ export default function Hero() {
           to { opacity: 1; transform: translateX(0); }
         }
 
+        /* Prevent horizontal overflow globally from any absolute element */
+        #home { overflow-x: hidden; }
+
       `}</style>
         </section>
     )
