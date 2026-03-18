@@ -94,12 +94,12 @@ export default function Hero() {
                         </div>
 
                         <h1 style={{ color: '#fff', marginBottom: 20, fontSize: 'clamp(32px, 4.5vw, 52px)', lineHeight: 1.15 }}>
-                            Launch Your Career & <br />
-                            <span className="gradient-text">Empower Institutions</span>
+                            Launch Your Career &amp; <br />
+                            <span className="gradient-text">Advance Your Skills</span>
                         </h1>
 
                         <p style={{ color: 'rgba(255,255,255,0.72)', fontSize: '1.1rem', marginBottom: 36, lineHeight: 1.7, maxWidth: 480 }}>
-                            Bridge the gap between academic learning and industry demands. Offering hands-on student internships and advanced B2B training for colleges & enterprises.
+                            Bridge the gap between academic knowledge and real-world industry skills. Offering hands-on student internships in tech domains and advanced training programs in Agentic AI, Cloud Computing, Data Science &amp; more.
                         </p>
 
                         <div className="hero-btns" style={{ display: 'flex', gap: 16, flexWrap: 'wrap', marginBottom: 48 }}>
@@ -107,7 +107,7 @@ export default function Hero() {
                                 View Internships <ArrowRight size={17} />
                             </button>
                             <button className="btn btn-outline-light" onClick={() => scrollTo('corporate-training')}>
-                                B2B Offerings
+                                Advanced Training
                             </button>
                         </div>
 

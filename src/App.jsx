@@ -14,7 +14,7 @@ import FAQ from './components/FAQ'
 import CorporateTraining from './components/CorporateTraining'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import WhatsAppButton from './components/WhatsAppButton'
+
 import Registration from './components/Registration'
 import Enquire from './components/Enquire'
 
@@ -52,7 +52,7 @@ function App() {
         <Route path="/enquire" element={<Enquire />} />
       </Routes>
       <Footer />
-      <WhatsAppButton />
+
     </>
   )
 }

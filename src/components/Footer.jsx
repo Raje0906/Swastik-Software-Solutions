@@ -11,7 +11,7 @@ export default function Footer() {
         <footer style={{ background: 'var(--primary)', color: 'rgba(255,255,255,0.8)' }} role="contentinfo">
             <div className="container" style={{ paddingTop: 64, paddingBottom: 40 }}>
                 {/* 4-column grid */}
-                <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: 40, marginBottom: 48 }}>
+                <div className="footer-grid" style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: 40, marginBottom: 48 }}>
                     {/* Brand */}
                     <div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
@@ -90,7 +90,7 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom bar */}
-                <div style={{
+                <div className="footer-bottom" style={{
                     paddingTop: 24,
                     borderTop: '1px solid rgba(255,255,255,0.1)',
                     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -122,6 +122,19 @@ export default function Footer() {
             </div>
 
 
+            <style>{`
+                @media (max-width: 768px) {
+                    .footer-grid {
+                        grid-template-columns: 1fr !important;
+                        gap: 32px !important;
+                    }
+                    .footer-bottom {
+                        flex-direction: column !important;
+                        align-items: flex-start !important;
+                        gap: 16px !important;
+                    }
+                }
+            `}</style>
         </footer>
     )
 }

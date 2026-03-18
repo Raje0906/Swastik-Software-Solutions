@@ -14,7 +14,7 @@ const navLinks = [
 export default function Navbar() {
     const location = useLocation()
     const navigate = useNavigate()
-    const isRegistrationPage = location.pathname === '/register'
+    const isRegistrationPage = location.pathname === '/register' || location.pathname === '/enquire'
 
     const [scrolled, setScrolled] = useState(false)
     const [menuOpen, setMenuOpen] = useState(false)

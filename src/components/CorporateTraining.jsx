@@ -5,25 +5,25 @@ const features = [
     {
         icon: <Bot size={24} color="var(--accent)" />,
         title: 'Agentic & Generative AI',
-        desc: 'Master building autonomous AI agents, fine-tuning LLMs, and integrating AI into existing enterprise architectures.',
+        desc: 'Master building autonomous AI agents, fine-tuning LLMs, and creating intelligent applications with real-world use cases.',
         color: '#7B3F8C',
     },
     {
         icon: <Cpu size={24} color="var(--accent)" />,
-        title: 'Modern Tech Stack Integration',
-        desc: 'Hands-on training in scalable architectures using Full Stack development, Serverless, and Cloud-native technologies.',
+        title: 'Full Stack Development',
+        desc: 'Hands-on training in modern web development using React, Node.js, databases, and cloud deployment.',
         color: '#1A3A5C',
     },
     {
         icon: <Building2 size={24} color="var(--accent)" />,
-        title: 'Professional Upskilling',
-        desc: 'Tailored workshops specifically designed to upgrade professionals and engineering teams to the latest industry standards.',
+        title: 'Data Science & ML',
+        desc: 'Learn data analysis, machine learning models, and Python-based tools used in real industry projects.',
         color: '#1a6b8a',
     },
     {
         icon: <GraduationCap size={24} color="var(--accent)" />,
-        title: 'College Seminars & Bootcamps',
-        desc: 'Bridging the gap between academic curriculum and advanced, real-world industry demands for students and faculty.',
+        title: 'Cybersecurity & Cloud',
+        desc: 'Gain skills in ethical hacking, network security, cloud computing, and DevOps to stay industry-ready.',
         color: '#b5451b',
     }
 ];
@@ -80,7 +80,7 @@ export default function CorporateTraining() {
                             <div>
                                 <h3 style={{ fontSize: '1.8rem', marginBottom: '12px', color: 'var(--primary)' }}>Ready to Deep Dive?</h3>
                                 <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: '1.6', maxWidth: '400px', margin: '0 auto' }}>
-                                    If you are an individual professional looking to deeply understand next-generation technology and build real-world AI applications, we have tailored curriculums for you.
+                                    Whether you're a student or a self-learner, our advanced programs are built to give you deep, practical knowledge in next-generation technologies.
                                 </p>
                             </div>
                             
