@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react'
 const faqs = [
     {
         q: 'What courses do you offer?',
-        a: 'We offer 6 core programs: Full Stack Web Development (MERN/Java), Python & Data Science, Artificial Intelligence & Machine Learning, Cybersecurity Fundamentals, Cloud Computing (AWS/Azure), and UI/UX Design. All are available online with optional hybrid classroom sessions.',
+        a: 'We offer 6 core programs: Agentic AI Systems, Python & Data Science, Artificial Intelligence & Machine Learning, Cybersecurity Fundamentals, Cloud Computing (AWS/Azure), and Full Stack Web Development (MERN/Java). All are available online with optional hybrid classroom sessions.',
     },
     {
         q: 'Are courses online or offline?',

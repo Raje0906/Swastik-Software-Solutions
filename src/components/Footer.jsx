@@ -1,7 +1,7 @@
 import { Linkedin, ArrowUp } from 'lucide-react'
 
 const quickLinks = ['Home', 'About', 'Courses', 'Internships', 'Testimonials', 'Contact']
-const programs = ['Full Stack Dev', 'Python & Data Science', 'AI & ML', 'Cybersecurity', 'Cloud Computing', 'UI/UX Design']
+const programs = ['Agentic AI', 'Python & Data Science', 'AI & ML', 'Cybersecurity', 'Cloud Computing', 'Full Stack Dev']
 
 export default function Footer() {
     const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })

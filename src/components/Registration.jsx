@@ -18,7 +18,7 @@ const steps = [
 ];
 
 const domains = [
-    'Web Development', 'Android Development', 'Data Science', 'AI / Machine Learning', 'Cybersecurity', 'Business Analysis'
+    'Agentic AI', 'Android Development', 'Data Science', 'AI / Machine Learning', 'Cybersecurity', 'Business Analysis', 'Full Stack Web Development'
 ];
 
 export default function Registration() {

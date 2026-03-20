@@ -48,12 +48,12 @@ const testimonials = [
     },
     {
         name: 'Ananya Goyal',
-        role: 'UI/UX Designer — Startup',
-        course: 'UI/UX Design Program',
+        role: 'AI Engineer — Startup',
+        course: 'Agentic AI Systems',
         rating: 5,
-        quote: 'The Figma-based design program exceeded my expectations. We did real design critiques, user research exercises, and built complete design systems. My Behance portfolio from this course is what got me hired at my current startup. Worth every rupee!',
-        avatar: '🎨',
-        avatarBg: '#1a5c3a',
+        quote: 'The Agentic AI program exceeded my expectations. We built autonomous agents, worked with LangChain, and created complex RAG systems. The portfolio I built from this course is what got me hired at my current AI startup. Worth every rupee!',
+        avatar: '🧠',
+        avatarBg: '#3b82f6',
     },
 ]
 

@@ -4,17 +4,17 @@ import { Clock, Monitor, BarChart2, X, ChevronRight, BookOpen } from 'lucide-rea
 
 const courses = [
     {
-        id: 1,
-        title: 'Full Stack Web Development',
-        subtitle: 'MERN / Java Stack',
-        category: 'Development',
-        duration: '3 Months',
-        mode: 'Online / Hybrid',
+        id: 7,
+        title: 'Agentic AI Systems',
+        subtitle: 'LLMs, LangChain, AI Agents',
+        category: 'Data Science',
+        duration: '2 Months',
+        mode: 'Online',
         level: 'Beginner to Advanced',
-        emoji: '🌐',
-        color: '#1A3A5C',
-        desc: 'Master both frontend (React, HTML, CSS) and backend (Node.js, Express, MongoDB or Java Spring Boot) development and ship production-ready web applications.',
-        topics: ['HTML5, CSS3, JavaScript ES6+', 'React.js with Hooks & Context', 'Node.js & Express.js', 'MongoDB / MySQL', 'REST APIs & Auth', 'Deployment (Vercel, AWS)'],
+        emoji: '🧠',
+        color: '#3b82f6',
+        desc: 'Learn to build autonomous AI agents using large language models. Master tools like LangChain, AutoGPT concepts, and craft intelligent workflows.',
+        topics: ['LLM Fundamentals', 'Prompt Engineering', 'LangChain Framework', 'Building Autonomous Agents', 'RAG (Retrieval-Augmented Gen)', 'Deploying AI Systems'],
     },
     {
         id: 2,
@@ -69,21 +69,21 @@ const courses = [
         topics: ['Cloud Concepts & Models', 'AWS Core Services (EC2, S3, RDS)', 'Azure Fundamentals', 'Serverless Architecture', 'DevOps & CI/CD', 'Cost Optimization'],
     },
     {
-        id: 6,
-        title: 'UI/UX Design',
-        subtitle: 'Figma, Design Systems',
-        category: 'Design',
-        duration: '6 Weeks',
-        mode: 'Online',
-        level: 'Beginner to Intermediate',
-        emoji: '🎨',
-        color: '#1a5c3a',
-        desc: 'Master the full design process — from user research and wireframing to high-fidelity prototyping and user testing using Figma.',
-        topics: ['Design Thinking', 'User Research & Personas', 'Wireframing', 'Figma Prototyping', 'Design Systems', 'Usability Testing'],
+        id: 1,
+        title: 'Full Stack Web Development',
+        subtitle: 'MERN / Java Stack',
+        category: 'Development',
+        duration: '3 Months',
+        mode: 'Online / Hybrid',
+        level: 'Beginner to Advanced',
+        emoji: '🌐',
+        color: '#1A3A5C',
+        desc: 'Master both frontend (React, HTML, CSS) and backend (Node.js, Express, MongoDB or Java Spring Boot) development and ship production-ready web applications.',
+        topics: ['HTML5, CSS3, JavaScript ES6+', 'React.js with Hooks & Context', 'Node.js & Express.js', 'MongoDB / MySQL', 'REST APIs & Auth', 'Deployment (Vercel, AWS)'],
     },
 ]
 
-const filters = ['All', 'Development', 'Data Science', 'Cybersecurity', 'Design']
+const filters = ['All', 'Development', 'Data Science', 'Cybersecurity']
 
 export default function Courses() {
     const [activeFilter, setActiveFilter] = useState('All')
