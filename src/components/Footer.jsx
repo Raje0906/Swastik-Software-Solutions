@@ -1,4 +1,5 @@
 import { Linkedin, ArrowUp } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const quickLinks = ['Home', 'About', 'Courses', 'Internships', 'Testimonials', 'Contact']
 const programs = ['Agentic AI', 'Python & Data Science', 'AI & ML', 'Cybersecurity', 'Cloud Computing', 'Full Stack Dev']
@@ -49,7 +50,7 @@ export default function Footer() {
                             {quickLinks.map(l => (
                                 <li key={l}>
                                     <button
-                                        onClick={() => scrollTo(l === 'Internships' ? 'internship' : l)}
+                                        onClick={() => window.location.pathname !== '/' ? window.location.href = `/#${l === 'Internships' ? 'internship' : l.toLowerCase()}` : scrollTo(l === 'Internships' ? 'internship' : l)}
                                         style={{
                                             background: 'none', border: 'none', cursor: 'pointer',
                                             color: 'rgba(255,255,255,0.65)', fontSize: '0.875rem',
@@ -100,11 +101,14 @@ export default function Footer() {
                         © 2025 Swastik Software Solutions. All Rights Reserved.
                     </span>
                     <div style={{ display: 'flex', gap: 20 }}>
-                        {['Privacy Policy', 'Terms of Use'].map(l => (
-                            <a key={l} href="#" style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.5)', transition: 'color 0.2s' }}
+                        {[
+                            { name: 'Privacy Policy', path: '/privacy-policy' },
+                            { name: 'Terms of Use', path: '/terms-of-use' }
+                        ].map(l => (
+                            <Link key={l.name} to={l.path} style={{ fontSize: '0.82rem', color: 'rgba(255,255,255,0.5)', transition: 'color 0.2s', textDecoration: 'none' }}
                                 onMouseEnter={e => e.target.style.color = 'var(--accent)'}
                                 onMouseLeave={e => e.target.style.color = 'rgba(255,255,255,0.5)'}
-                            >{l}</a>
+                            >{l.name}</Link>
                         ))}
                     </div>
                     {/* Scroll to top */}

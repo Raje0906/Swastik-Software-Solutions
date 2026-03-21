@@ -33,6 +33,9 @@ function HomePage() {
   );
 }
 
+import PrivacyPolicy from './components/PrivacyPolicy'
+import TermsOfUse from './components/TermsOfUse'
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -50,6 +53,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<Registration />} />
         <Route path="/enquire" element={<Enquire />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-use" element={<TermsOfUse />} />
       </Routes>
       <Footer />
 
