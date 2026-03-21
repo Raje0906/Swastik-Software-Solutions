@@ -25,13 +25,13 @@ export default function Contact() {
                         </div>
                         <div>
                             <div style={{ fontWeight: 700, fontSize: '1.2rem', color: 'var(--primary)', marginBottom: 8 }}>Email Us</div>
-                            <a href="mailto:info@swastiksoftware.in" style={{ 
+                            <a href="mailto:swastiksoftwaretech@gmail.com" style={{ 
                                 color: 'var(--text-secondary)', fontSize: '1rem', textDecoration: 'none', 
                                 transition: 'color 0.2s', fontWeight: 500 
                             }} 
                             onMouseEnter={e => e.target.style.color = 'var(--accent)'} 
                             onMouseLeave={e => e.target.style.color = 'var(--text-secondary)'}>
-                                info@swastiksoftware.in
+                                swastiksoftwaretech@gmail.com
                             </a>
                             <p style={{ marginTop: '12px', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
                                 We typically reply within 24 hours. Drop us a line for any inquiries!

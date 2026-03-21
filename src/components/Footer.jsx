@@ -78,7 +78,7 @@ export default function Footer() {
                         <h4 style={{ color: '#fff', fontSize: '0.95rem', marginBottom: 20, fontFamily: 'Poppins,sans-serif' }}>Contact</h4>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                             {[
-                                { label: '✉️ Email', val: 'info@swastiksoftware.in' },
+                                { label: '✉️ Email', val: 'swastiksoftwaretech@gmail.com' },
                             ].map(c => (
                                 <div key={c.label}>
                                     <div style={{ fontSize: '0.75rem', color: 'rgba(255,255,255,0.4)', marginBottom: 2 }}>{c.label}</div>
